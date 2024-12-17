@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Elixir where using `Process.exit` inside an `Enum.each` function unexpectedly terminates the enumeration before it completes.  The `bug.ex` file shows the problematic code, and `bugSolution.ex` provides a corrected version.
